@@ -922,6 +922,7 @@ class ComponentImpl extends ComponentBase {
                     keyboardEvent.altKey = me.altKey;
                     keyboardEvent.ctrlKey = me.ctrlKey;
                     keyboardEvent.shiftKey = me.shiftKey;
+                    keyboardEvent.metaKey = me.shiftKey;
                 }
                 
                 fn(keyboardEvent);
